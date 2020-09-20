@@ -23,10 +23,10 @@ function App(props) {
                 {/*<Header />*/}
                 <Navbar/>
                 <div className="app-content-wrapper">
-                    <Route path="/cart" render={() => <Cart/>}/>
-                    <Route path="/menu" render={() => <MenuContainer/>}/>
-                    {isAuth ? <Route path="/Profile" render={() => <Profile/>}/>
-                        : <Route path="/login" render={() => <Login/>}/>
+                    <Route path="pizza-app/cart" render={() => <Cart/>}/>
+                    <Route path="pizza-app/menu" render={() => <MenuContainer/>}/>
+                    {isAuth ? <Route path="pizza-app/Profile" render={() => <Profile/>}/>
+                        : <Route path="pizza-app/login" render={() => <Login/>}/>
                     }
                 </div>
             </main>
