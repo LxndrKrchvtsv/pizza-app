@@ -1,0 +1,6 @@
+.header {
+    background-color: #99c559;
+    grid-area: h;
+    grid-row: 1/1;
+    grid-column: 2/6;
+}

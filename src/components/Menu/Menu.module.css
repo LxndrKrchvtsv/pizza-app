@@ -1,0 +1,26 @@
+.headerWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 35px;
+    width: 360px;
+    margin-bottom: 18px;
+}
+
+.showVal {
+    border-radius: 10px;
+    background-color: #ff951b;
+    color: #fff;
+    padding: 0px 20px;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+    font-size: 14px;
+    border: 1px solid #ffa000;
+}
+
+.showVal:hover {
+    background-color: #fff;
+    color: #ff951b;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}

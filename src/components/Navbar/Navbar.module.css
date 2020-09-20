@@ -1,0 +1,38 @@
+.nav {
+    background-color: #ffa000;
+    grid-area: n;
+    grid-row: 1/6;
+    grid-column: 1/1;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.item a {
+    color: #ffffff;
+    display: block;
+    line-height: 31px;
+    padding-left: 10px;
+    text-decoration: none;
+    background-color: #ff951b;
+    margin: 10px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.item a:hover {
+    background-color: #ff8800;
+    transition: all 0.3s ease-in-out;
+ }
+
+ .active {
+    background-color: #ffffff !important;
+    color: #ff8800 !important;
+    transition: all 0.3s ease-in-out;
+}

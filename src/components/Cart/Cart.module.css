@@ -1,0 +1,128 @@
+.wrapInput {
+    display: flex;
+    margin-bottom: 15px;
+    width: 430px;
+    justify-content: space-between;
+}
+
+.buttonForm {
+    border-radius: 10px;
+    background-color: #ff951b;
+    color: #fff;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+    font-size: 14px;
+    border: 1px solid #ffa000;
+    padding: 0 53px;
+}
+
+.buttonForm:hover {
+    background-color: #fff;
+    color: #ff951b;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.switcherCartWrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 35px;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.showVal {
+    border-radius: 10px;
+    background-color: #ff951b;
+    color: #fff;
+    padding: 0px 20px;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+    font-size: 14px;
+    border: 1px solid #ffa000;
+    margin-left: 40px;
+}
+
+.showVal:hover {
+    background-color: #fff;
+    color: #ff951b;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.element .imgElement {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.element {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #ffa000;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px;
+    color: #3e3e3e;
+}
+
+.name span, .description span, .price span {
+    font-weight: 600;
+    color: #ff8d00;
+}
+
+.name {
+    width: 100%;
+    text-align: left;
+}
+
+.description {
+    font-size: 14px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75px;
+}
+
+.addToCart {
+    border: 1px solid #ffa000;
+    border-radius: 10px;
+    background-color: #ff951b;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+}
+
+.addToCart:hover {
+    background-color: #fff;
+    color: #ff951b;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.wrapElement {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 400px;
+    grid-gap: 20px;
+    margin-bottom: 40px;
+}
+
+.wrapPriceButton {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.wrapPrice {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

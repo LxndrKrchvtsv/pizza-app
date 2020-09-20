@@ -1,0 +1,23 @@
+.wrapForm {
+    display: flex;
+    margin-top: 20px;
+}
+
+.logButton {
+    border: 1px solid #ffa000;
+    border-radius: 10px;
+    background-color: #ff951b;
+    color: #fff;
+    padding: 8px 20px;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+    margin-left: 20px;
+    outline: none;
+}
+
+.logButton:hover {
+    background-color: #fff;
+    color: #ff951b;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
