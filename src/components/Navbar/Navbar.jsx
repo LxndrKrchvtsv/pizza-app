@@ -15,18 +15,18 @@ const Navbar = () => {
             <h2>Navigation</h2>
             <ul>
                 <li className={Style.item}>
-                    <NavLink to="pizza-app/Menu" activeClassName={Style.active}>Menu</NavLink>
+                    <NavLink to="/Menu" activeClassName={Style.active}>Menu</NavLink>
                 </li>
                 <li className={Style.item}>
-                    <NavLink to="pizza-app/Cart" activeClassName={Style.active}>Cart {quantity}</NavLink>
+                    <NavLink to="/Cart" activeClassName={Style.active}>Cart {quantity}</NavLink>
                 </li>
                 <li className={Style.item}>
-                    {isAuth ? <NavLink to="pizza-app/Profile" activeClassName={Style.active}>Your profile, {name ? name+'!' : '+ '+tel}</NavLink>
-                        : <NavLink to="pizza-app/Login" activeClassName={Style.active}>Login</NavLink>
+                    {isAuth ? <NavLink to="/Profile" activeClassName={Style.active}>Your profile, {name ? name+'!' : '+ '+tel}</NavLink>
+                        : <NavLink to="/Login" activeClassName={Style.active}>Login</NavLink>
                     }
                 </li>
                 <li className={Style.item}>
-                    {isAuth && <NavLink to="pizza-app/Login" onClick={() => dispatch(logout())} activeClassName={Style.active}>Logout</NavLink>}
+                    {isAuth && <NavLink to="/Login" onClick={() => dispatch(logout())} activeClassName={Style.active}>Logout</NavLink>}
                 </li>
             </ul>
         </nav>
