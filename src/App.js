@@ -18,7 +18,7 @@ function App(props) {
         dispatch(auth())
     }, [])
     return (
-        <BrowserRouter>
+        <BrowserRouter  basename={process.env.PUBLIC_URL}>
             <main className="app-wrapper">
                 {/*<Header />*/}
                 <Navbar/>
