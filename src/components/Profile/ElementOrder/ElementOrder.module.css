@@ -5,33 +5,32 @@ img {
 .element {
     background-color: #ffffff;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     border: 2px solid #ffa000;
     border-radius: 20px;
     overflow: hidden;
+    padding: 10px;
+    box-shadow: 0px 0px 16px -5px;
+    transition: all .3s ease-in-out;
 }
 
-.name {
-
+.element:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px -5px;
+    transition: all .6s ease-in-out;
 }
 
-.description {
-
-}
-
-.price {
-
-}
-
-.addToCart {
-
+.name span, .description span, .price span {
+    font-weight: 600;
+    color: #ff8d00;
 }
 
 .wrapElement {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 400px 400px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 100px;
     grid-gap: 20px;
+    margin-top: 25px;
 }
