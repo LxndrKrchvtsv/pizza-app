@@ -2,7 +2,7 @@ import * as axios from 'axios';
 
 export const orderAPI = {
     sentOrder(name, sureName, address, tel, email, totalPriceE, totalPriceD, cartItem, numOrder) {
-        return axios.post(`http://localhost:3001/create-order/`, {
+        return axios.post(`https://rest-api-pizza.herokuapp.com/`, {
             name,
             sureName,
             address,
@@ -16,15 +16,15 @@ export const orderAPI = {
     },
 
     login(tel) {
-        return axios.get(`http://localhost:3001/login?phonenumber=${tel}&channel=sms`)
+        return axios.get(`https://rest-api-pizza.herokuapp.com/login?phonenumber=${tel}&channel=sms`)
     },
     verify(tel, code) {
-        return axios.get(`http://localhost:3001/verify?phonenumber=${tel}&code=${code}`)
+        return axios.get(`https://rest-api-pizza.herokuapp.com/verify?phonenumber=${tel}&code=${code}`)
     },
     auth() {
-        return axios.get(`http://localhost:3001/auth`, {headers:{Authorization:`Bearer ${localStorage.getItem('token')}`}})
+        return axios.get(`https://rest-api-pizza.herokuapp.com/auth`, {headers:{Authorization:`Bearer ${localStorage.getItem('token')}`}})
     },
     profile() {
-        return axios.get(`http://localhost:3001/profile`, {headers:{Authorization:`Bearer ${localStorage.getItem('token')}`}})
+        return axios.get(`https://rest-api-pizza.herokuapp.com/profile`, {headers:{Authorization:`Bearer ${localStorage.getItem('token')}`}})
     }
 };

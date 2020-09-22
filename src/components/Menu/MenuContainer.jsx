@@ -7,7 +7,7 @@ import Menu from "./Menu";
 
 class MenuContainer extends React.Component {
     componentDidMount() {
-        axios.get(`http://localhost:3001/menu`)
+        axios.get(`https://rest-api-pizza.herokuapp.com/menu`)
             .then(response => {
                 this.props.setMenu(response.data.items);
                 console.log(response.data.items);
