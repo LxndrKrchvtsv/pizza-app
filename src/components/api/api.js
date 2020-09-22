@@ -2,7 +2,7 @@ import * as axios from 'axios';
 
 export const orderAPI = {
     sentOrder(name, sureName, address, tel, email, totalPriceE, totalPriceD, cartItem, numOrder) {
-        return axios.post(`https://rest-api-pizza.herokuapp.com/`, {
+        return axios.post(`https://rest-api-pizza.herokuapp.com/create-order`, {
             name,
             sureName,
             address,
