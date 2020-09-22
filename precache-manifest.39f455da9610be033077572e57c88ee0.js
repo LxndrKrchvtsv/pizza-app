@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e51cd0ca5ea13e7cf31d",
-    "url": "/pizza-app/static/css/main.dd273c9d.chunk.css"
+    "revision": "c79ea21d6876ae550bea",
+    "url": "/pizza-app/static/css/main.aeacd8bc.chunk.css"
   },
   {
-    "revision": "e51cd0ca5ea13e7cf31d",
-    "url": "/pizza-app/static/js/main.fb8a8d8a.chunk.js"
+    "revision": "c79ea21d6876ae550bea",
+    "url": "/pizza-app/static/js/main.1f592283.chunk.js"
   },
   {
     "revision": "7ec28d335dfc83f970b3",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/pizza-app/static/js/2.ea1cfc48.chunk.js"
   },
   {
-    "revision": "2d001e699e0b21b71783f713a8c07145",
+    "revision": "31022df4aaf59c829e25a8d2bb53ee78",
     "url": "/pizza-app/index.html"
   }
 ];
