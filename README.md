@@ -1,4 +1,4 @@
-Hello! This is a test mini app pizza delivery.
+Hello! This is the test mini app pizza delivery.
 It was created to showcase my skills.
 
 You can view the demo at: https://aleksandrusa96.github.io/pizza-app
